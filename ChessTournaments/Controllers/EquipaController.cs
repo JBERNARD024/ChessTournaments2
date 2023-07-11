@@ -46,7 +46,7 @@ namespace ChessTournaments.Controllers
             {
                 return NotFound();
             }
-
+            ViewBag.ListaJogadores = _context.Pessoa.Where(p => p.EquipaFK == id).ToList();
             return View(equipa);
         }
 

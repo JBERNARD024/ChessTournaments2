@@ -30,7 +30,7 @@ namespace ChessTournaments.Models
         /// </summary>
         [ForeignKey(nameof(Pessoa))]
 
-        public int PessoaFK { get; set; }
+        public int? PessoaFK { get; set; }
 
         public Pessoa Pessoa { get; set; }
 
@@ -41,7 +41,7 @@ namespace ChessTournaments.Models
         /// </summary>
         [ForeignKey(nameof(Equipa))]
 
-        public int EquipaFK { get; set; }
+        public int? EquipaFK { get; set; }
 
         public Equipa Equipa { get; set; }
     }
