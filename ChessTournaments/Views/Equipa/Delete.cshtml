@@ -1,0 +1,45 @@
+﻿@model ChessTournaments.Models.Equipa
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Eliminar</h1>
+
+<h3>Tem a certeza que pretende eliminar este registo?</h3>
+<div>
+    <h4>Equipa</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Morada)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Morada)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CodigoPostal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CodigoPostal)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dataFundacao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dataFundacao)
+        </dd>
+    </dl>
+    <br />
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Volta à Lista</a>
+    </form>
+</div>

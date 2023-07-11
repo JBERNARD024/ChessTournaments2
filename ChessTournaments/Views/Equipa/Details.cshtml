@@ -1,0 +1,52 @@
+﻿@model ChessTournaments.Models.Equipa
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>Equipa</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Morada)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Morada)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CodigoPostal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CodigoPostal)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dataFundacao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dataFundacao)
+        </dd>
+    </dl>
+
+    <h4>Fotografias do @Model.Nome</h4>
+    @foreach (var foto in Model.ListaFotos)
+    {
+        <img src="~/imagens/@foto.NomeFicheiro"
+             alt="Fotografia do @Model.Nome"
+             title="@Model.Nome no @Model.@foto.Local em @foto.Data"
+             width="100px" />
+    }
+
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+    <a asp-action="Index">Voltar à Lista</a>
+</div>

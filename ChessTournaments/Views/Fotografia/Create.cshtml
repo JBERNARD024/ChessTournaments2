@@ -1,0 +1,52 @@
+﻿@model ChessTournaments.Models.Fotografia
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Criar</h1>
+
+<h4>Fotografia</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NomeFicheiro" class="control-label"></label>
+                <input asp-for="NomeFicheiro" class="form-control" />
+                <span asp-validation-for="NomeFicheiro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" />
+                <span asp-validation-for="Data" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Local" class="control-label"></label>
+                <input asp-for="Local" class="form-control" />
+                <span asp-validation-for="Local" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PessoaFK" class="control-label"></label>
+                <select asp-for="PessoaFK" class ="form-control" asp-items="ViewBag.PessoaFK"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="EquipaFK" class="control-label"></label>
+                <select asp-for="EquipaFK" class ="form-control" asp-items="ViewBag.EquipaFK"></select>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar à Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

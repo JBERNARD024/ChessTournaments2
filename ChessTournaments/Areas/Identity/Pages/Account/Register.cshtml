@@ -1,0 +1,127 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+<h1>@ViewData["Title"]</h1>
+<h2>Cria um novo utilizador.</h2>
+<form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+    <input asp-for="Input.Pessoa.Email" value="a@gmail.com" type="hidden" />
+    <div class="row">
+        <div class="col-md-6">
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <hr />
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.Primeiro_Nome" class="form-control" />
+                    <label asp-for="Input.Pessoa.Primeiro_Nome"></label>
+                    <span asp-validation-for="Input.Pessoa.Primeiro_Nome" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.Ultimo_Nome" class="form-control" />
+                    <label asp-for="Input.Pessoa.Ultimo_Nome"></label>
+                    <span asp-validation-for="Input.Pessoa.Ultimo_Nome" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.Username" class="form-control" />
+                    <label asp-for="Input.Pessoa.Username"></label>
+                    <span asp-validation-for="Input.Pessoa.Username" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.DataNascimento" class="form-control" />
+                    <label asp-for="Input.Pessoa.DataNascimento"></label>
+                    <span asp-validation-for="Input.Pessoa.DataNascimento" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <select asp-for="Input.Pessoa.Sexo" class="form-control">
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                    <span asp-validation-for="Input.Pessoa.Sexo" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.Nacionalidade" class="form-control" />
+                    <label asp-for="Input.Pessoa.Nacionalidade"></label>
+                    <span asp-validation-for="Input.Pessoa.Nacionalidade" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.Morada" class="form-control" />
+                    <label asp-for="Input.Pessoa.Morada"></label>
+                    <span asp-validation-for="Input.Pessoa.Morada" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.CodPostal" class="form-control" />
+                    <label asp-for="Input.Pessoa.CodPostal"></label>
+                    <span asp-validation-for="Input.Pessoa.CodPostal" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.Telemovel" class="form-control" />
+                    <label asp-for="Input.Pessoa.Telemovel"></label>
+                    <span asp-validation-for="Input.Pessoa.Telemovel" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <select asp-for="Input.Pessoa.isFuncionario" class="form-control">
+                        <option value="S">Sim</option>
+                        <option value="N">Não</option>
+                    </select>
+                    <span asp-validation-for="Input.Pessoa.isFuncionario" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <label asp-for="Input.Pessoa.EquipaFK"></label>
+                    <span asp-validation-for="Input.Pessoa.EquipaFK" class="form-control" asp-items="ViewBag.EquipaFK"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Pessoa.Score" class="form-control" />
+                    <span asp-validation-for="Input.Pessoa.Score" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <label asp-for="Input.Pessoa.ListaFotos"></label>
+                    <input asp-for="Input.Pessoa.ListaFotos" class="form-control"
+                           type="file"
+                           accept=".jpg,.jpeg,.png"
+                           name="imagemPessoa" />
+                </div>
+
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-4">
+                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Registar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
