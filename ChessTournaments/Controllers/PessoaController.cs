@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ChessTournaments.Data;
 using ChessTournaments.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace ChessTournaments.Controllers
 {
@@ -14,16 +15,25 @@ namespace ChessTournaments.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public PessoaController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
+        public PessoaController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment, UserManager<IdentityUser> userManager)
         {
             _context = context;
             _webHostEnvironment = webHostEnvironment;
+            _userManager = userManager;
         }
 
         // GET: Pessoa
         public async Task<IActionResult> Index()
         {
+            // var auxiliar
+            string idDaPessoaAutenticada = _userManager.GetUserId(User);
+
+            var listaJogadores = _context.Pessoa
+                               .Include(f => f.ListaFotos)
+                               .Where(p => p.Username == idDaPessoaAutenticada);
+
             var applicationDbContext = _context.Pessoa.
                 Include(p => p.Equipa).
                 Include(f => f.ListaFotos);

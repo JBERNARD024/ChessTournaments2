@@ -7,24 +7,38 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ChessTournaments.Data;
 using ChessTournaments.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace ChessTournaments.Controllers
 {
+
+    //Necessita de autenticação para ter acesso aos dados
+    [Authorize]
+
     public class EquipaController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public EquipaController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
+
+        public EquipaController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment, UserManager<IdentityUser> userManager)
         {
             _context = context;
             _webHostEnvironment = webHostEnvironment;
+            _userManager = userManager;
         }
 
         // GET: Equipa
+
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-              return _context.Equipa != null ? 
+            // var auxiliares
+            string idDaPessoaAutenticada = _userManager.GetUserId(User);
+
+            return _context.Equipa != null ? 
                           View(await _context.Equipa
                           .Include(f => f.ListaFotos) 
                           .ToListAsync()) :
