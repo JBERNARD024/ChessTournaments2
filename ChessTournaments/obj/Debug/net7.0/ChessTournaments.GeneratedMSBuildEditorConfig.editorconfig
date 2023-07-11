@@ -9,189 +9,189 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChessTournaments
 build_property.RootNamespace = ChessTournaments
-build_property.ProjectDir = D:\Projetos\ChessTorurnamentsAPI2\ChessTournaments\
+build_property.ProjectDir = C:\Users\joaob\OneDrive - Instituto Politécnico de Tomar\Ambiente de Trabalho\Desenvolvimento Web\GitHub\JogoXadrez\ChessTournaments\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Projetos\ChessTorurnamentsAPI2\ChessTournaments
+build_property.MSBuildProjectDirectory = C:\Users\joaob\OneDrive - Instituto Politécnico de Tomar\Ambiente de Trabalho\Desenvolvimento Web\GitHub\JogoXadrez\ChessTournaments
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Equipa/Create.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Equipa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Equipa/Delete.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Equipa/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Equipa/Details.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Equipa/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Equipa/Edit.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Equipa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Equipa/Index.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Equipa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Fotografia/Create.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Fotografia/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm90b2dyYWZpYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Fotografia/Delete.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Fotografia/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm90b2dyYWZpYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Fotografia/Details.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Fotografia/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm90b2dyYWZpYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Fotografia/Edit.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Fotografia/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm90b2dyYWZpYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Fotografia/Index.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Fotografia/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm90b2dyYWZpYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Home/Index.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Home/Privacy.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Organizacao/Create.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Organizacao/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemFjYW9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Organizacao/Delete.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Organizacao/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemFjYW9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Organizacao/Details.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Organizacao/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemFjYW9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Organizacao/Edit.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Organizacao/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemFjYW9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Organizacao/Index.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Organizacao/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemFjYW9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Partida/Create.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Partida/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Partida/Delete.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Partida/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Partida/Details.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Partida/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Partida/Edit.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Partida/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Partida/Index.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Partida/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Pessoa/Create.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Pessoa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Pessoa/Delete.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Pessoa/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Pessoa/Details.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Pessoa/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Pessoa/Edit.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Pessoa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Pessoa/Index.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Pessoa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Shared/Error.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Torneio/Create.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Torneio/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9ybmVpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Torneio/Delete.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Torneio/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9ybmVpb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Torneio/Details.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Torneio/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9ybmVpb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Torneio/Edit.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Torneio/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9ybmVpb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Torneio/Index.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Torneio/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9ybmVpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/_ViewImports.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/_ViewStart.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/ChessTorurnamentsAPI2/ChessTournaments/Views/Shared/_Layout.cshtml]
+[C:/Users/joaob/OneDrive - Instituto Politécnico de Tomar/Ambiente de Trabalho/Desenvolvimento Web/GitHub/JogoXadrez/ChessTournaments/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0u9uu9t86u

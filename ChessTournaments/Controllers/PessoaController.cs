@@ -78,7 +78,7 @@ namespace ChessTournaments.Controllers
                         {
                             Data = DateTime.Now,
                             Local = "SemImagem",
-                            NomeFicheiro = "ImagemDefault.jpeg"
+                            NomeFicheiro = "ImagemDefaultPessoa.jpeg"
                         });
             }
             else
@@ -91,7 +91,7 @@ namespace ChessTournaments.Controllers
                         {
                             Data = DateTime.Now,
                             Local = "SemImagem",
-                            NomeFicheiro = "ImagemDefault.jpeg"
+                            NomeFicheiro = "ImagemDefaultPessoa.jpeg"
                         });
                 }
                 else

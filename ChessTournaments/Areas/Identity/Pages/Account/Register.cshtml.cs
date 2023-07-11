@@ -34,6 +34,8 @@ namespace ChessTournaments.Areas.Identity.Pages.Account
         private readonly IEmailSender _emailSender;
 
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        IFormFile imagemPessoa;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
@@ -41,7 +43,8 @@ namespace ChessTournaments.Areas.Identity.Pages.Account
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender,
-            ApplicationDbContext context)
+            ApplicationDbContext context,
+            IWebHostEnvironment webHostEnvironment)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -50,6 +53,7 @@ namespace ChessTournaments.Areas.Identity.Pages.Account
             _logger = logger;
             _emailSender = emailSender;
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         /// <summary>
@@ -135,6 +139,55 @@ namespace ChessTournaments.Areas.Identity.Pages.Account
             returnUrl ??= Url.Content("~/");
             //ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
+            //variáveis auxiliares
+            string nomeFoto = "";
+            bool existeFoto = false;
+
+            if (imagemPessoa == null)
+            {
+                // O Utilizador não fez upload de uma imagem
+                // É adicionada uma imagem pré-definida à pessoa
+                Input.Pessoa.ListaFotos
+                        .Add(new Fotografia
+                        {
+                            Data = DateTime.Now,
+                            Local = "SemImagem",
+                            PessoaFK = 0,
+                            NomeFicheiro = "ImagemDefaultPessoa.jpeg"
+                        });
+            }
+            else
+            {
+                if (imagemPessoa.ContentType != "image/jpg" &&
+                    imagemPessoa.ContentType != "image/png" && imagemPessoa.ContentType != "image/jpeg")
+                {
+                    Input.Pessoa.ListaFotos
+                        .Add(new Fotografia
+                        {
+                            Data = DateTime.Now,
+                            Local = "SemImagem",
+                            PessoaFK = 0,
+                            NomeFicheiro = "ImagemDefaultPessoa.jpeg"
+                        });
+                }
+                else
+                {
+                    Guid g = Guid.NewGuid();
+                    nomeFoto = g.ToString();
+                    string extensaoNomeFoto = Path.GetExtension(imagemPessoa.FileName).ToLower();
+                    nomeFoto += extensaoNomeFoto;
+
+                    Input.Pessoa.ListaFotos
+                            .Add(new Fotografia
+                            {
+                                Data = DateTime.Now,
+                                Local = "",
+                                NomeFicheiro = nomeFoto
+                            });
+                    existeFoto = true;
+                }
+            }
+
             //Caso os dados definidos no InputModel estejam corretos
             if (ModelState.IsValid)
             {
@@ -164,6 +217,23 @@ namespace ChessTournaments.Areas.Identity.Pages.Account
                     {
                         _context.Add(Input.Pessoa);
                         await _context.SaveChangesAsync();
+                         if (existeFoto)
+                    {
+                        string nomeLocalizaoImagem = _webHostEnvironment.WebRootPath;
+                        nomeLocalizaoImagem = Path.Combine(nomeLocalizaoImagem, "imagens");
+
+                        if (!Directory.Exists(nomeLocalizaoImagem))
+                        {
+                            Directory.CreateDirectory(nomeLocalizaoImagem);
+                        }
+
+                        string nomeDoFicheiro = Path.Combine(nomeLocalizaoImagem, nomeFoto);
+                        //guardar o ficheiro
+                        using var stream = new FileStream(nomeDoFicheiro, FileMode.Create);
+                        await imagemPessoa.CopyToAsync(stream);
+                    }
+
+                    return RedirectToAction(nameof(Index));
                     }
                     catch (Exception ex)
                     {
